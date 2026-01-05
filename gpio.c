@@ -3,8 +3,6 @@
 *
 *  \details    Simple GPIO driver explanation
 *
-*  \author     EmbeTronicX
-*
 *  \Tested with Linux raspberrypi 5.4.51-v7l+
 *
 *******************************************************************************/
@@ -209,9 +207,9 @@ module_init(etx_driver_init);
 module_exit(etx_driver_exit);
  
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("EmbeTronicX <embetronicx@gmail.com>");
+MODULE_AUTHOR("Loya Dinesh");
 MODULE_DESCRIPTION("A simple device driver - GPIO Driver");
-MODULE_VERSION("1.32");
+MODULE_VERSION("1.0");
 
 
 
